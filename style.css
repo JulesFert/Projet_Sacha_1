@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cinzel&family=Gloria+Hallelujah&family=Gwendolyn&family=Homemade+Apple&family=Indie+Flower&family=My+Soul&family=Mystery+Quest&family=Nanum+Pen+Script&family=Over+the+Rainbow&family=Sacramento&family=Shadows+Into+Light&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
-    scroll-behavior: smooth;
     /* font-family: 'Amatic SC', cursive; */
     font-family: 'Cinzel', serif;
     /* font-family: 'Gloria Hallelujah', cursive; */
@@ -121,26 +123,8 @@ a:hover{
     border: 1px rgb(0, 0, 0) solid;
 
 }
-.contenantimg1 {
-    position: relative;
-}
-.texte_container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Indie Flower', cursive;
-    font-weight: bold;
-    font-size: 1.8em;
-    opacity: 0;
-    transition: 0.3s;
-}
 
 /* -------------------GROSSES IMAGES------------------------- */
-.grossesimages {
-
-}
-
 .img1big {
 display: none;
 position: fixed;
@@ -174,17 +158,12 @@ z-index: 10;
     border: 2px white solid;
 }
 
-.contenantimg1:hover .texte_container {
-    opacity: 1;
-    z-index: 5;
-}
-
 /* ------------------PAGE 2 ---------------------------------- */
 .page2 {
     background: url(/Media/Fond_page2.jpg) fixed;
 }
 
-nav {
+.pageprece {
     font-family: 'Homemade Apple', cursive;
     font-size: 1em;
     position: absolute;
@@ -201,7 +180,7 @@ nav {
 
 }
 
-nav p:hover {
+.pageprece p:hover {
     color: white;
     transition: 0.3s;
 }
@@ -212,8 +191,7 @@ span {
 }
 
 .sacha {
-    /* font-family: 'Indie Flower', cursive; */
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
     font-size: 1.5em;
     font-weight: bold;
     background: rgba(129, 221, 129, 0.75);
@@ -234,6 +212,16 @@ border-radius: 10px;
 border: 2px black solid;
 }
 
-.presentation {
-
+.hautpage{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-size: 1.2em;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px;
+    width: 250px;
+    background: #ad8b6bd5;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
 }
