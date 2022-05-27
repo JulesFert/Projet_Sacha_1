@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cinzel&family=Gloria+Hallelujah&family=Gwendolyn&family=Homemade+Apple&family=Indie+Flower&family=My+Soul&family=Mystery+Quest&family=Nanum+Pen+Script&family=Over+the+Rainbow&family=Sacramento&family=Shadows+Into+Light&display=swap');
+
+
+body{
+    scroll-behavior: smooth;
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'Cinzel', serif;
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    /* font-family: 'Gwendolyn', cursive; */
+    /* font-family: 'Homemade Apple', cursive; */
+    /* font-family: 'Indie Flower', cursive; */
+    /* font-family: 'My Soul', cursive; */
+    /* font-family: 'Mystery Quest', cursive; */
+    /* font-family: 'Nanum Pen Script', cursive; */
+    /* font-family: 'Over the Rainbow', cursive; */
+    /* font-family: 'Sacramento', cursive; */
+    /* font-family: 'Shadows Into Light', cursive; */
+    color: black;
+    background: url(/Fond.jpg) fixed;
+    background-position: auto;
+}
+/* #736558 */
+/* #3a261b */
+/* opacité 85% */
+h1 {
+    font-family: 'My Soul', cursive;  
+    text-align: center;
+    font-size: 5em;
+    letter-spacing: 12px;
+    width: 450px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #736558d5;
+    box-shadow: 5px 5px 17px 1px;
+}
+.barreduhaut {
+    height: 3px;
+    width: 550px;
+    margin: auto;
+    margin-top: -25px;
+    background-color: #736558e8;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    background-color: #736558d5;
+    margin-right: auto;
+    margin-left: auto;
+    width: 405px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 17px 1px;
+}
+
+.menu {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+.ul{
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    max-width: 80%;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+}
+li {
+    background: #ad8b6bd5;
+    width: 240px;
+    height: 40px;
+    padding: 5px;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-top: 10px;
+    box-shadow: 5px 5px 17px 1px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover{
+    color: rgb(5, 50, 90);
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
+.container{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #736558d5;
+    border-radius: 15px;
+    padding: 15px;
+    align-items: baseline;
+    box-shadow: 5px 5px 17px 1px;
+}
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.photos img{
+    object-fit: fill;
+    margin: 10px;
+    transition: ease-in-out 0.2s;
+    animation-direction: alternate-reverse;
+    border-radius: 15px;
+    border: 1px rgb(0, 0, 0) solid;
+
+}
+.contenantimg1 {
+    position: relative;
+}
+.texte_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 1.7em;
+    opacity: 0;
+}
+
+/* -------------------GROSSES IMAGES------------------------- */
+.grossesimages {
+
+}
+
+.img1big {
+display: none;
+position: fixed;
+width: auto;
+top: 30px;
+right: 450px;
+height: 95%;
+z-index: 10;
+}
+
+/* ------------------------GROSSES IMAGES-------------------------- */
+
+.img3 {
+    height: 350px;
+}
+.img4 {
+    height: 400px;
+}
+
+/* .contenantimg1:hover .texte_container .text {
+    opacity: 1;
+    transform: scale(1.2);
+    filter: brightness(0.8);
+    border: 2px white solid;
+} */
+
+.photos img:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    filter: brightness(0.8);
+    border: 2px white solid;
+}
+
+.photos .contenantimg1:hover .texte_container {
+    opacity: 1;
+    z-index: 5;
+}
+
+/* ------------------PAGE 2 ---------------------------------- */
+.page2 {
+    background: url(/Media/Fond_page2.jpg) fixed;
+}
+
+nav {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1em;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+    background: rgba(129, 221, 129, 0.75);
+    width: auto;
+    height: auto;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 5px 5px 17px 1px;
+
+}
+
+nav p:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+span {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.sacha {
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+    background: rgba(129, 221, 129, 0.75);
+    margin: 150px auto 0 auto;
+    border: 2px black solid;
+    border-radius: 15px;
+    width: 80%;
+    text-align: center;
+    text-align: justify;
+    padding: 15px;
+    box-shadow: 5px 5px 20px 1px;
+}
+
+.img_sacha {
+float: left;
+margin-right: 10px;
+border-radius: 10px;
+border: 2px black solid;
+}
+
+.presentation {
+
+}
