@@ -18,7 +18,7 @@ body{
     /* font-family: 'Sacramento', cursive; */
     /* font-family: 'Shadows Into Light', cursive; */
     color: black;
-    background: url(/Fond.jpg) fixed;
+    background: url(./Fond.jpg) fixed;
     background-position: auto;
 }
 /* #736558 */
@@ -224,4 +224,16 @@ border: 2px black solid;
     background: #ad8b6bd5;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.nom {
+    width: 80%;
 }
