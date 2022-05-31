@@ -84,7 +84,13 @@ li {
     padding-top: 10px;
     box-shadow: 5px 5px 17px 1px;
 }
-a {
+ul a {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+footer a {
     color: black;
     text-decoration: none;
     transition: 0.2s;
@@ -122,6 +128,7 @@ a:hover{
     animation-direction: alternate-reverse;
     border-radius: 15px;
     border: 1px rgb(0, 0, 0) solid;
+    cursor: pointer;
 
 }
 
@@ -206,6 +213,26 @@ a:hover{
     height: 95%;
     z-index: 10;
 }
+#img9big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 600px;
+    border: 2px black solid;
+    height: 95%;
+    z-index: 10; 
+}
+#img10big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 480px;
+    border: 2px black solid;
+    height: 95%;
+    z-index: 10;
+}
 /* ------------------------GROSSES IMAGES-------------------------- */
 
 #img2{
@@ -227,6 +254,7 @@ a:hover{
 #img8{
 width: 480px;
 }
+
 .photos img:hover{
     opacity: 1;
     transform: scale(1.05);
@@ -287,7 +315,7 @@ margin-right: 10px;
 border-radius: 10px;
 border: 2px black solid;
 }
-
+/* ------------------PAGE 2 ---------------------------------- */
 .hautpage{
     position: fixed;
     bottom: 50px;
