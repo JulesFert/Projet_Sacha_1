@@ -93,7 +93,7 @@ a {
 
 a:hover{
     color: rgb(5, 50, 90);
-    transform: scale(1.1);
+    transform: scale(1);
     transition: 0.2s ease-in-out;
 }
 
@@ -133,6 +133,7 @@ a:hover{
     top: 30px;
     right: 450px;
     height: 95%;
+    border: 2px black solid;
     z-index: 10;
 }
 #img2big{
@@ -142,6 +143,7 @@ a:hover{
     top: 30px;
     right: 220px;
     height: 95%;
+    border: 2px black solid;
     z-index: 10;
 }
 #img3big{
@@ -151,6 +153,7 @@ a:hover{
     top: 30px;
     right: 260px;
     height: 95%;
+    border: 2px black solid;
     z-index: 10;
 }
 #img4big{
@@ -160,6 +163,7 @@ a:hover{
     top: 30px;
     right: 700px;
     height: 95%;
+    border: 2px black solid;
     z-index: 10;
 }
 #img5big{
@@ -168,21 +172,64 @@ a:hover{
     width: auto;
     top: 30px;
     right: 480px;
+    border: 2px black solid;
     height: 95%;
     z-index: 10; 
 }
+#img6big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 250px;
+    border: 2px black solid;
+    height: 95%;
+    z-index: 10; 
+}
+#img7big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 250px;
+    border: 2px black solid;
+    height: 95%;
+    z-index: 10; 
+}
+#img8big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 400px;
+    border: 2px black solid;
+    height: 95%;
+    z-index: 10;
+}
 /* ------------------------GROSSES IMAGES-------------------------- */
 
+#img2{
+    height: 350px;
+}
 #img3 {
     height: 350px;
 }
 #img4 {
     height: 400px;
 }
-
+#img6{
+    height: 350px;
+}
+#img7{
+    width: 480px;
+    height: 430px;
+}
+#img8{
+width: 480px;
+}
 .photos img:hover{
     opacity: 1;
-    transform: scale(1.2);
+    transform: scale(1.05);
     filter: brightness(0.8);
     border: 2px white solid;
 }
