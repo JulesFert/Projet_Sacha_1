@@ -223,7 +223,7 @@ a:hover{
     height: 95%;
     z-index: 10; 
 }
-#img10big{
+#img10big, #img11big, #img12big, #img13big, #img14big, #img15big, #img16big, #img17big, #img18big, #img19big, #img21big, #img23big {
     display: none;
     position: fixed;
     width: auto;
@@ -233,26 +233,49 @@ a:hover{
     height: 95%;
     z-index: 10;
 }
+#img20big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 580px;
+    border: 2px black solid;
+    height: 95%;
+    z-index: 10;
+}
+#img22big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 340px;
+    border: 2px black solid;
+    height: 95%;
+    z-index: 10;
+}
+#img24big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 620px;
+    border: 2px black solid;
+    height: 95%;
+    z-index: 10;
+}
 /* ------------------------GROSSES IMAGES-------------------------- */
-
+#img1{
+    height: 400px;
+}
 #img2{
-    height: 350px;
+    height: 380px;
 }
 #img3 {
     height: 350px;
 }
 #img4 {
-    height: 400px;
-}
-#img6{
+    width: 500px;
     height: 350px;
-}
-#img7{
-    width: 480px;
-    height: 430px;
-}
-#img8{
-width: 480px;
 }
 
 .photos img:hover{
