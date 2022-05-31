@@ -88,6 +88,7 @@ a {
     color: black;
     text-decoration: none;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 a:hover{
@@ -125,31 +126,59 @@ a:hover{
 }
 
 /* -------------------GROSSES IMAGES------------------------- */
-.img1big {
-display: none;
-position: fixed;
-width: auto;
-top: 30px;
-right: 450px;
-height: 95%;
-z-index: 10;
+#img1big {
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 450px;
+    height: 95%;
+    z-index: 10;
 }
-
+#img2big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 220px;
+    height: 95%;
+    z-index: 10;
+}
+#img3big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 260px;
+    height: 95%;
+    z-index: 10;
+}
+#img4big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 700px;
+    height: 95%;
+    z-index: 10;
+}
+#img5big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 480px;
+    height: 95%;
+    z-index: 10; 
+}
 /* ------------------------GROSSES IMAGES-------------------------- */
 
-.img3 {
+#img3 {
     height: 350px;
 }
-.img4 {
+#img4 {
     height: 400px;
 }
-
-/* .contenantimg1:hover .texte_container .text {
-    opacity: 1;
-    transform: scale(1.2);
-    filter: brightness(0.8);
-    border: 2px white solid;
-} */
 
 .photos img:hover{
     opacity: 1;
@@ -160,7 +189,7 @@ z-index: 10;
 
 /* ------------------PAGE 2 ---------------------------------- */
 .page2 {
-    background: url(/Media/Fond_page2.jpg) fixed;
+    background: url(./Media/Fond_page2.jpg) fixed;
 }
 
 .pageprece {
