@@ -3,6 +3,10 @@
 html{
     scroll-behavior: smooth;
 }
+#bloc_page{
+    width: 1800px;
+    margin: auto;
+}
 
 body{
     /* font-family: 'Amatic SC', cursive; */
