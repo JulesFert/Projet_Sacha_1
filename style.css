@@ -3,10 +3,24 @@
 html{
     scroll-behavior: smooth;
 }
+
 #bloc_page{
     width: 1800px;
     margin: auto;
 }
+
+@media screen and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+    #hautpage{
+        width: auto;
+    }
+    
+}
+
 
 body{
     /* font-family: 'Amatic SC', cursive; */
@@ -65,7 +79,7 @@ h2 {
     font-family: 'Cinzel', serif;
 }
 
-.ul{
+#ul{
     font-family: 'Homemade Apple', cursive;
     text-align: center;
     display: flex;
@@ -342,7 +356,7 @@ border-radius: 10px;
 border: 2px black solid;
 }
 /* ------------------PAGE 2 ---------------------------------- */
-.hautpage{
+#hautpage{
     position: fixed;
     bottom: 50px;
     right: 50px;
